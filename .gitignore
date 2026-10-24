@@ -1,0 +1,83 @@
+# Python & Bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+**/.venv/
+venv/
+**/venv/
+ENV/
+env/
+ENV*/
+
+# Pytest & Testing Cache
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment Variables & Secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+
+# Local SQLite Runtime Databases
+*.sqlite
+*.sqlite3
+*.db
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+cloudroute.db
+backend/cloudroute.db
+!schema.sql
+
+# Node & Frontend Dependencies and Builds
+node_modules/
+**/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+*.local
+
+# Logs
+*.log
+**/*.log
+logs/
+
+# IDE & OS Temporary Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
